@@ -1,3 +1,15 @@
+(function loadAudio() {
+  let userAudio = document.getElementById("userAudio");
+
+  document.addEventListener("mousemove", () => {
+    userAudio.play();
+  });
+
+  document.addEventListener("click", () => {
+    userAudio.play();
+  });
+})();
+
 function initParticleView() {
   particlesJS("particles-js", {
     particles: {

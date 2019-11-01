@@ -1,54 +1,60 @@
 <!DOCTYPE html>
 <html lang="en">
-
-<head>
+  <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta http-equiv="X-UA-Compatible" content="ie=edge" />
     <title>Test Site Hacked By Mr.X</title>
+    <link rel="stylesheet" href="css/reset.css">
     <link rel="stylesheet" href="css/styles.css" />
-</head>
+  </head>
 
-<body>
+  <body>
     <!-- particles-js for particles in screen -->
     <div id="particles-js">
-        <canvas class="particles-js-canvas-el" width="794" height="625" style="width: 100%; height: 100%;">
+      <canvas
+        class="particles-js-canvas-el"
+        width="794"
+        height="625"
+        style="width: 100%; height: 100%;"
+      >
       </canvas>
     </div>
 
-    <!-- audio for some awesome king_music -->
-    <!-- audio is hidden -->
-    <audio autoplay>
-      <source src="assets/mp3/king_music.mp3" type="audio/mpeg" />
-    </audio>
-
     <!-- main content -->
     <div class="content center">
-        <!-- main image -->
-        <div class="line-break">
-            <img src="assets/img/king.jpg" width="500" />
-        </div>
+      <!-- main image -->
+      <div class="line-break">
+        <img src="assets/img/king.jpg" width="500" />
+      </div>
 
-        <!-- hacker info -->
-        <h1 class="text-white">Hacker Group Name</h1>
-        <a class="line-break link" href="https://www.hacker-group-site.org/">
-          www.hacker-group-site.org
+      <!-- hacker info -->
+      <h1 class="text-white">Hacker Group Name</h1>
+      <a class="line-break link" href="https://www.hacker-group-site.org/">
+        www.hacker-group-site.org
       </a>
 
-        <!-- hacker details -->
-        <h1 class="text-red line-break">Some Hacker Banner</h1>
-        <marquee width="30%" class="text-red font-17">
-            Banner 1 | Banner 2 | Banner 3 | Banner 4 | Banner 5 | Banner 6 | Banner 7 | Banner 8 | Banner 9 |
-        </marquee>
+      <!-- hacker details -->
+      <h1 class="text-red line-break">Some Hacker Banner</h1>
+      <marquee width="30%" class="text-red font-17">
+        Banner 1 | Banner 2 | Banner 3 | Banner 4 | Banner 5 | Banner 6 | Banner
+        7 | Banner 8 | Banner 9 |
+      </marquee>
+
+      <audio
+        src="assets/mp3/king_music.mp3"
+        id="userAudio"
+        autoplay
+        loop
+        hidden
+      ></audio>
     </div>
-</body>
-<script src="js/particles.min.js"></script>
-<script src="js/script.js"></script>
-
-<script type="text/javascript">
-  window.addEventListener("load", function() {
-    initParticleView();
-  });
-</script>
-
+  </body>
+  <script src="js/particles.min.js"></script>
+  <script src="js/script.js"></script>
+  <script type="text/javascript">
+    window.addEventListener("load", function() {
+      initParticleView();
+    });
+  </script>
 </html>
